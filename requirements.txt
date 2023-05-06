@@ -1,2 +1,4 @@
 pypdf2~=3.0.1
 fpdf~=1.7.2
+requests~=2.29.0
+python-dotenv~=1.0.0
