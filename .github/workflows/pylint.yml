@@ -20,4 +20,4 @@ jobs:
 
       - name: Run Pylint
         run: |
-          pylint --rcfile=.pylintrc binarymath/pdf_and_api_python
+          pylint --rcfile=.pylintrc ../../
