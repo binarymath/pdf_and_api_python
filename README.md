@@ -51,7 +51,7 @@ PDF2OpenAI first extracts the text content from the input PDF file using pypdf2 
 
 ## 🤝 Contributing
 
-Contributions are welcome! To contribute to PDF2OpenAI, follow these steps:
+Contributions are welcome! To contribute to Working with api and manipulating pdf, follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bugfix.
