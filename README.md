@@ -11,7 +11,7 @@ Workflow with api and manipulando pdf is a Python-based system that receives a P
 
 To use Working with api and manipulating pdf, you'll need to have the following installed on your system:
 
-- Python 3.6 or higher
+- Python 3.8 or higher
 - pypdf2
 - fpdf
 - requests
