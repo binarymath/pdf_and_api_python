@@ -9,7 +9,7 @@ PDF2OpenAI is a Python-based system that receives a PDF file as input, sends a r
 
 ### Prerequisites
 
-To use PDF2OpenAI, you'll need to have the following installed on your system:
+To use Working with api and manipulating pdf, you'll need to have the following installed on your system:
 
 - Python 3.6 or higher
 - pypdf2
