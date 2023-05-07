@@ -1,23 +1,20 @@
-name: Pylint
+name: Pylint check
 
-on: [push]
+on:
+  pull_request:
+  push:
+    branches:
+      - main
 
 jobs:
-  build:
+  pylint:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.11"]
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v3
-      with:
-        python-version: ${{ matrix.python-version }}
+    - name: Checkout code
+      uses: actions/checkout@v2
+
     - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pylint
-    - name: Analysing the code with pylint
-      run: |
-        pylint $(git ls-files '*.py')
+      run: pip install pylint
+
+    - name: Run pylint
+      run: pylint workflows
