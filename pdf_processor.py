@@ -8,11 +8,9 @@ load_dotenv()
 API_Key = os.getenv('API-Key')
 API_Host = os.getenv('API-Host')
 
-# division_of_line = input("Type the keyword to start the question: ")
-
 url = "https://openai80.p.rapidapi.com/chat/completions"
 
-with open('pdf/planodeaula.pdf', 'rb') as file:
+with open('pdf/plano_de_aula.pdf', 'rb') as file:
     pdf_reader = PyPDF2.PdfReader(file)
 
     text = []
@@ -20,9 +18,6 @@ with open('pdf/planodeaula.pdf', 'rb') as file:
         text_list = pdf_reader.pages[page].extract_text().split('\n')
         new_text_list = []
         for i, line in enumerate(text_list):
-            # if division_of_line in line:
-            #     new_text_list.append('\n' + line + '\n')
-            # else:
             new_text_list.append(line)
         text.extend(new_text_list)
     text = ' '.join(text)
