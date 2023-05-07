@@ -20,4 +20,4 @@ jobs:
 
       - name: Run Pylint
         run: |
-          pylint --rcfile=.pylintrc ../../
+          pylint --rcfile=.pylintrc pdf_processor.py
