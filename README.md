@@ -58,6 +58,3 @@ Contributions are welcome! To contribute to PDF2OpenAI, follow these steps:
 3. Make your changes and write tests for them.
 4. Submit a pull request.
 
-## 📝 License
-
-PDF2OpenAI is licensed under the MIT License. See `LICENSE` for more information.
