@@ -22,7 +22,7 @@ To use Working with api and manipulating pdf, you'll need to have the following 
 1. Clone the repository:
 
 ```
-git clone https://github.com/your_username/pdf_and_api_python.git
+git clone https://github.com/binarymath/pdf_and_api_python.git
 ```
 
 2. Install the required Python packages:
